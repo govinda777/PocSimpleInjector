@@ -1,22 +1,15 @@
-﻿using SimpleInjector;
+﻿using PocSimpleInjector.Base;
 using PocSimpleInjector.Base.Interfaces;
-using PocSimpleInjector.Base;
+using SimpleInjector;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
-namespace PocSimpleInjector
+namespace PocSimpleInjector.Test
 {
-    class Program
-    {
-        static void Main(string[] args)
-        {
-            Bootstrap.Start();
-            var clienteService = Bootstrap.Container.GetInstance<IClienteService>();
-            clienteService.Adicionar();
-        }
-
-
-    }
-
-    internal class Bootstrap
+    public class Bootstrap
     {
         public static Container Container;
 

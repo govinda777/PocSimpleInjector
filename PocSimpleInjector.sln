@@ -5,6 +5,8 @@ VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PocSimpleInjector", "PocSimpleInjector\PocSimpleInjector.csproj", "{4854BE7F-662A-491F-BAEC-CF65F39028C1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PocSimpleInjector.Test", "PocSimpleInjector.Test\PocSimpleInjector.Test.csproj", "{E52A172A-6AE3-4585-AA50-C44605835047}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{4854BE7F-662A-491F-BAEC-CF65F39028C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4854BE7F-662A-491F-BAEC-CF65F39028C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4854BE7F-662A-491F-BAEC-CF65F39028C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E52A172A-6AE3-4585-AA50-C44605835047}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E52A172A-6AE3-4585-AA50-C44605835047}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E52A172A-6AE3-4585-AA50-C44605835047}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E52A172A-6AE3-4585-AA50-C44605835047}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
